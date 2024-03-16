@@ -13,8 +13,10 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App';
 import Error from './pages/Error'; //adding error page for overall app error messages
 import Home from './pages/Home';
-import Contact from './pages/Contact';
 import About from './pages/About';
+import Contact from './pages/Contact';
+import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
 
 
 //router setup that will be used to define our
