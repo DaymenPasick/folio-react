@@ -6,7 +6,7 @@ import p2img from '../public/assets/pastProjectImgs/project2img.png'
 import p3img from '../public/assets/pastProjectImgs/project3img.png'
 import p4img from '../public/assets/pastProjectImgs/project4img.png'
 import p5img from '../public/assets/pastProjectImgs/project5img.png'
-// import p6img from '../public/assets/pastProjectImgs/project1img.png'
+import p6img from '../public/assets/pastProjectImgs/project6img.png'
 
 
 
@@ -48,10 +48,10 @@ const pastProjects = [
 },
 {
     projectNumber: 6,
-    title: "Project 6",
-    imgRef: "./assets/pastProjectImgs/project1img1",
-    deployedLink: "https://daymenpasick.github.io/api-powered-weather-app/",
-    gitHubLink: "https://github.com/DaymenPasick/api-powered-weather-app"
+    title: "Secure Password Generator",
+    imgRef: p6img,
+    deployedLink: "https://daymenpasick.github.io/secure-password-generator/",
+    gitHubLink: "https://github.com/DaymenPasick/secure-password-generator"
 }
 
 
