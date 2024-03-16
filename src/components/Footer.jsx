@@ -6,7 +6,7 @@ export default function Footer(props) {
 
  return (
     <div>
-        <p>My Beauituful Footer </p>
+        <p>My Beauituful Footer in {props.pageName} </p>
     </div>
 
  );
