@@ -1,9 +1,12 @@
-//this will contain basic data for all of
-//my past projects to be used in other components
-// import Image from '../../public/project1img.png'
+//File contains data pertaining to old projects
 import p1img from '../public/assets/pastProjectImgs/project1img.png'
+// import p2img from '../public/assets/pastProjectImgs/project1img.png'
+// import p3img from '../public/assets/pastProjectImgs/project1img.png'
+// import p4img from '../public/assets/pastProjectImgs/project1img.png'
+// import p5img from '../public/assets/pastProjectImgs/project1img.png'
+// import p6img from '../public/assets/pastProjectImgs/project1img.png'
 
-// require('../public/assets/pastProjectImgs')
+
 
 const pastProjects = [
 {

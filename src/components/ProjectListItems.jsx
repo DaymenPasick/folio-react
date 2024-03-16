@@ -1,13 +1,8 @@
 import React from 'react'
 
-// import Image from '../../public/project1img.png'
 
-
-
-// require('../../public/assets/pastProjectImgs/')
-// import pathing from '../assets/pastProjectImgs'
-//will be used for dynamic generation of the list content
-//for Project.jsx
+//Dynamicaly pulls prop data from pastProject.js
+//and uses it in the Project.jsx component
 function ProjectListItems({pastProject}) {
   return (
     <li className="" >
