@@ -1,3 +1,12 @@
+import Project from '../components/Project';
+
+
+
+//import to grab objects from pastProjects array
+import pastProjects from '../pastProjects'
+
+
+
 export default function Portfolio() {
     return (
       <div>
@@ -15,6 +24,8 @@ export default function Portfolio() {
           conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
           rhoncus. Etiam vel condimentum magna, quis tempor nulla.
         </p>
+
+        <Project pastProjects={pastProjects}/>
       </div>
     );
   }

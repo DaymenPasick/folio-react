@@ -12,4 +12,4 @@ const pastProjects = [
 
 ]
 
-export default pastProjects
+export default pastProjects;
