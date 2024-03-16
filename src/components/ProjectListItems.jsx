@@ -6,6 +6,9 @@ function ProjectListItems({pastProject}) {
   return (
     <li className="">
     {`${pastProject.title}`}
+    {`${pastProject.imgRef}`}
+    {`${pastProject.deployedLink}`}
+    {`${pastProject.gitHubLink}`}
   </li>
   )
 }
