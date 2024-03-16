@@ -1,4 +1,4 @@
-// will use react-router-doms Link component to conditionally render 
+//Will use react-router-doms Link component to conditionally render 
 //different parts of my Portfolio
 
 //These two imports will give access to utilities/methods that 
@@ -7,11 +7,11 @@ import { Link, useLocation } from 'react-router-dom';
 
 function CreateNavigationTabs() {
 
-    //sets variable for active page to be used in the return() below
+    //Sets variable for active page to be used in the return() below
     const currentPage = useLocation().pathname;
 
-    
-    //in the return below, terinary operators will be used to check 
+
+    //In the return below, terinary operators will be used to check 
     //the current page, and use bootsrap import from main.jsx
     //to utilize the nav-link class functionality for dynamic tabs
     return (
