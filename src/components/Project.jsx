@@ -4,14 +4,10 @@ export default function Project({pastProjects}) {
 
     return(
         <ul>
-            {pastProjects.map((pastProject) => (
-
-           
-                <div>
-                    <p>Hi</p>
-                </div>
-           
-           
+            {pastProjects.map((pastProject) => (      
+                <li>
+                    
+                </li>
            ))}
         </ul>
     )
