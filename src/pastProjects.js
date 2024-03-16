@@ -1,19 +1,22 @@
 //this will contain basic data for all of
 //my past projects to be used in other components
+// import Image from '../../public/project1img.png'
+import p1img from '../public/assets/pastProjectImgs/project1img.png'
 
+// require('../public/assets/pastProjectImgs')
 
 const pastProjects = [
 {
     projectNumber: 1,
     title: "Project 1",
-    imgRef: "./assets/pastProjectImgs/project1img1",
+    imgRef: p1img,
     deployedLink: "https://daymenpasick.github.io/api-powered-weather-app/",
     gitHubLink: "https://github.com/DaymenPasick/api-powered-weather-app"
 },
 {
     projectNumber: 2,
     title: "Project 2",
-    imgRef: "./assets/pastProjectImgs/project1img1",
+    imgRef: "../src/assets/pastProjectImgs/project1img1",
     deployedLink: "https://daymenpasick.github.io/api-powered-weather-app/",
     gitHubLink: "https://github.com/DaymenPasick/api-powered-weather-app"
 },
