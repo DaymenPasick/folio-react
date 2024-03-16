@@ -13,6 +13,8 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     height: '100vh',
+    // width: '100vh',
+    padding: '0',
     backgroundColor: 'grey'
   },
 } 
