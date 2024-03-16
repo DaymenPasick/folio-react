@@ -15,8 +15,7 @@ import Error from './pages/Error'; //adding error page for overall app error mes
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import About from './pages/About';
-import Blog from './pages/Blog';
-
+import Blog from './pages/Portfolio';
 
 
 //router setup that will be used to define our
@@ -37,13 +36,18 @@ const router = createBrowserRouter([
           element: <About />,
         },
         {
-          path: '/Blog',
-          element: <Blog />,
+            path: '/Contact',
+            element: <Contact />,
+          },
+        {
+          path: '/Portfolio',
+          element: <Portfolio />,
         },
         {
-          path: '/Contact',
-          element: <Contact />,
+          path: '/Resume',
+          element: <Resume />,
         },
+
       ],
     },
   ]);
