@@ -3,7 +3,7 @@
 //imports for old project images from pastProjectim
 import p1img from '../public/assets/pastProjectImgs/project1img.png'
 import p2img from '../public/assets/pastProjectImgs/project2img.png'
-// import p3img from '../public/assets/pastProjectImgs/project1img.png'
+import p3img from '../public/assets/pastProjectImgs/project3img.png'
 // import p4img from '../public/assets/pastProjectImgs/project1img.png'
 // import p5img from '../public/assets/pastProjectImgs/project1img.png'
 // import p6img from '../public/assets/pastProjectImgs/project1img.png'
@@ -13,24 +13,24 @@ import p2img from '../public/assets/pastProjectImgs/project2img.png'
 const pastProjects = [
 {
     projectNumber: 1,
-    title: "Project 1",
+    title: "Api-Powered Weather App",
     imgRef: p1img,
     deployedLink: "https://daymenpasick.github.io/api-powered-weather-app/",
     gitHubLink: "https://github.com/DaymenPasick/api-powered-weather-app"
 },
 {
     projectNumber: 2,
-    title: "Project 2",
+    title: "PWA Text Edits",
     imgRef: p2img,
     deployedLink: "https://fierce-island-41242-1b48dd9f1336.herokuapp.com/",
     gitHubLink: "https://github.com/DaymenPasick/PWA-text-edits"
 },
 {
     projectNumber: 3,
-    title: "Project 3",
-    imgRef: "./assets/pastProjectImgs/project1img1",
-    deployedLink: "https://daymenpasick.github.io/api-powered-weather-app/",
-    gitHubLink: "https://github.com/DaymenPasick/api-powered-weather-app"
+    title: "Nifty Notes",
+    imgRef: p3img,
+    deployedLink: "https://nifty-notes-e32363e861cc.herokuapp.com/notes",
+    gitHubLink: "https://github.com/DaymenPasick/nifty-notes"
 },
 {
     projectNumber: 4,
