@@ -5,7 +5,9 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 
-//will import some sort of style code resource here in the future*
+//will need this at least for use of nav-link 
+//class in Navigation.jsx
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 //imports will connect router created below to 
