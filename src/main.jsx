@@ -15,7 +15,6 @@ import Error from './pages/Error'; //adding error page for overall app error mes
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import About from './pages/About';
-import Blog from './pages/Portfolio';
 
 
 //router setup that will be used to define our
