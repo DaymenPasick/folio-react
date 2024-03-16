@@ -6,7 +6,7 @@ import { Outlet } from 'react-router-dom';
 import Nav from './components/Navigation';
 
 function App() {
-    //will invoke Nav and Outlet from imports 
+    //Will invoke Nav and Outlet from imports 
   return (
     <>
       <Nav />

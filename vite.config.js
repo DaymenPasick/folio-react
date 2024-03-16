@@ -1,3 +1,4 @@
+//Config file that will run/open server using vite
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
