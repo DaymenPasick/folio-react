@@ -53,8 +53,10 @@ function Form() {
         //Will take in the form-entered username and email
         //and check if email is valid/username isn't empty
         if (!validateEmail(email) || !contactName) {
-            setErrorMessage('Email or username is invalid');
-
+            setErrorMessage('Email or Name is invalid');
+            //Would like to create a more detailed error message
+            // if time permits
+            
             return;
           }
 
@@ -67,10 +69,44 @@ function Form() {
           alert(`Thanks for contacting me ${userName}. I'll respond ASAP! `);
     }
     
+
+    //Returns display of form based off prop data
+    //taken in by the code above
     return (
-        <div>
-            <p>boop</p>
-        </div>
+        <div className="container text-center">
+        <h1>Hello {contactName}</h1>
+        <form className="form" onSubmit={handleFormSubmit}>
+          <input
+            value={contactName}
+            name="contactName"
+            onChange={handleInputChange}
+            type="text"
+            placeholder="name"
+          />
+          <input
+            value={email}
+            name="email"
+            onChange={handleInputChange}
+            type="email"
+            placeholder="email"
+          />
+          <textarea
+            value={contactMessage}
+            name="contactMessage"
+            onChange={handleInputChange}
+            type="textarea"
+            placeholder="message"
+          />
+          <button type="submit">
+            Submit
+          </button>
+        </form>
+        {errorMessage && (
+          <div>
+            <p className="error-text">{errorMessage}</p>
+          </div>
+        )}
+      </div>
     );
 
 };
