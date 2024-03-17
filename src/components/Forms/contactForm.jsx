@@ -15,6 +15,22 @@ function Form() {
     //Similar to above setup, but for handling form errors
     const [errorMessage, setErrorMessage] = useState('');
     
+
+
+    //Arrow function that will listen for changes in the
+    //useState variables declared above
+    const handleInputChange =(e) =>{
+
+
+    }
+
+
+    //Arrow function that will listen for 
+    //clicking on submit button, and handle submitted data
+    //when we set it up with the clickEvent later
+    const handleFormSubmit =(e) =>{
+
+    }
     
     return (
         <div>
