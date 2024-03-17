@@ -3,7 +3,8 @@
 import { Outlet } from 'react-router-dom';
 
 //Allows use of component that will be created later
-import Nav from './components/Navigation';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 
 //eventually will make this into a seperate stylesheet
@@ -24,11 +25,14 @@ function App() {
     //Will invoke Nav and Outlet from imports 
   return (
     <div >
-      <Nav />
+      <Header />
       {/* playing with styleing...my true enemy xD */}
       <main className="mx-3" style = {styles.container}>
         <Outlet />
+
+        <Footer />
       </main>
+      
     </div>
   );
 }
