@@ -27,7 +27,8 @@ function CreateNavigationTabs() {
         <li className="nav-item">
           <Link
             to="/About"
-            className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}
+            //Will set About tab active upon initial page loading in
+            className={currentPage === '/About' || '/' ? 'nav-link active' : 'nav-link'}
           >
             About
           </Link>
@@ -51,7 +52,7 @@ function CreateNavigationTabs() {
         <li className="nav-item">
           <Link
             to="/Resume"
-            className={currentPage === '/Blog' ? 'nav-link active' : 'nav-link'}
+            className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
           >
             Resume
           </Link>
