@@ -55,7 +55,7 @@ function Form() {
         if (!validateEmail(email) || !contactName) {
             setErrorMessage('Email or Name is invalid');
             //Would like to create a more detailed error message
-            // if time permits
+            //if time permits
             
             return;
           }
