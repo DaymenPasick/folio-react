@@ -8,9 +8,14 @@ import { validateEmail } from '../../utils/helpers';
 
 function Form() {
 
-
-
-
+    //Setting up useState variables and declaring their functions
+    const [contactName, setContactName] = useState('');
+    const [email, setEmail] = useState('');
+    const [userName, setUserName] = useState('');
+    //Similar to above setup, but for handling form errors
+    const [errorMessage, setErrorMessage] = useState('');
+    
+    
     return (
         <div>
             <p>boop</p>
