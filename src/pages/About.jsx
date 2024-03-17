@@ -1,6 +1,7 @@
+import Avatar from '../../public/assets/projectAvatar.png'
 
-
-const pageDetails ={
+//May or may not use this object
+const aboutMeDetails ={
   pageName:'About'
 }
 
@@ -16,6 +17,7 @@ export default function About() {
           imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
           in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
         </p>
+        <img src={Avatar} alt="profile avatar" />
       </div>
     );
   }
