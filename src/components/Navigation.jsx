@@ -16,14 +16,14 @@ function CreateNavigationTabs() {
     //to utilize the nav-link class functionality for dynamic tabs
     return (
       <ul className="nav nav-tabs">
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <Link
             to="/"
             className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
           >
             Home
           </Link>
-        </li>
+        </li> */}
         <li className="nav-item">
           <Link
             to="/About"

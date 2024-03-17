@@ -14,7 +14,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 //the pages indicated by their respective paths
 import App from './App';
 import Error from './pages/Error';
-import Home from './pages/Home';
+// import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
@@ -29,10 +29,10 @@ const router = createBrowserRouter([
       element: <App />,
       errorElement: <Error />,
       children: [
-        {
-          index: true,
-          element: <Home />,
-        },
+        // {
+        //   index: true,
+        //   element: <Home />,
+        // },
         {
           path: '/About',
           element: <About />,
