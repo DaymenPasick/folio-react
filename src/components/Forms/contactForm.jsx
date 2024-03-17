@@ -21,7 +21,7 @@ function Form() {
     //useState variables declared above
     const handleInputChange =(e) =>{
 
-        //this will set a listner that will target
+        //Will set a listner that will target
         //the html form (name) attribute that has been
         //typed in/altered while also targetting
         //the updated data(value) associated with the 
@@ -30,6 +30,17 @@ function Form() {
         const inputType = target.name;
         const inputValue = target.value;
 
+
+        //Will update the useState variables
+        //depending on which form inputType(name)
+        //was altered
+        if (inputType === 'contactName') {
+            setContactName(inputValue);
+          } else if (inputType === 'email') {
+            setEmail(inputValue);
+          } else {
+            setContactMessage(inputValue)
+          }
 
     }
 
