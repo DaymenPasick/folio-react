@@ -1,8 +1,7 @@
-//Bringing in Outlet import that will facilitate  page navigation
-//using the page URL's
+//Bringing in Outlet import that will facilitate page navigation
 import { Outlet } from 'react-router-dom';
 
-//Allows use of component that will be created later
+//Allows us to use Header and Footer components here
 import Header from './components/Header';
 import Footer from './components/Footer';
 

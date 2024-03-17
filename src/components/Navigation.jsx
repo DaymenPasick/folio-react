@@ -35,18 +35,18 @@ function CreateNavigationTabs() {
         </li>
         <li className="nav-item">
           <Link
-            to="/Contact"
-            className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
-          >
-            Contact
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link
             to="/Portfolio"
             className={currentPage === '/Blog' ? 'nav-link active' : 'nav-link'}
           >
             Portfolio
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link
+            to="/Contact"
+            className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
+          >
+            Contact
           </Link>
         </li>
         <li className="nav-item">
