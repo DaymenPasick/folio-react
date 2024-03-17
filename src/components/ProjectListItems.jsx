@@ -8,9 +8,8 @@ function ProjectListItems({pastProject}) {
     <li className="" >
     {`${pastProject.title}`}
     <img src={`${pastProject.imgRef}`} alt={`img of ${pastProject.title}`} />
-    <a href={`${pastProject.deployedLink}`}>{`${pastProject.deployedLink}`}</a>
-    {`${pastProject.imgRef}`}
-    {`${pastProject.gitHubLink}`}
+    <a href={`${pastProject.deployedLink}`}>View Live Website</a>
+    <a href={`${pastProject.gitHubLink}`}>View On GitHub</a>
   </li>
   )
 }
