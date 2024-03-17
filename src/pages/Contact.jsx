@@ -1,3 +1,7 @@
+//Will import Form from respective path
+import Form from '../components/Forms/contactForm'
+
+
 export default function Contact() {
     return (
       <div>
@@ -15,6 +19,8 @@ export default function Contact() {
           conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
           rhoncus. Etiam vel condimentum magna, quis tempor nulla.
         </p>
+          <Form />
       </div>
+      
     );
   }
