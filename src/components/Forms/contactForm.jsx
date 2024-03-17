@@ -21,13 +21,21 @@ function Form() {
     //useState variables declared above
     const handleInputChange =(e) =>{
 
+        //this will set a listner that will target
+        //the html form (name) attribute that has been
+        //typed in/altered while also targetting
+        //the updated data(value) associated with the 
+        //aforementioned (name) target
+        const { target } = e;
+        const inputType = target.name;
+        const inputValue = target.value;
+
 
     }
 
 
     //Arrow function that will listen for
-    //clicking on submit button, and handle submitted data
-    //when we set it up with the clickEvent later
+    //clicking on "submit" button, and handle submitted data
     const handleFormSubmit =(e) =>{
         e.preventDefault();
 
