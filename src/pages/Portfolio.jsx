@@ -1,8 +1,7 @@
+//Will utilize Project from Project component
 import Project from '../components/Project';
 
-
-
-//import to grab objects from pastProjects array
+//Grabs objects from pastProjects array
 import pastProjects from '../pastProjects'
 
 
