@@ -74,7 +74,7 @@ function Form() {
     //taken in by the code above
     return (
         <div className="container text-center">
-        <h1>Hello {contactName}</h1>
+        <h1>Please Fill Out This Form</h1>
         <form className="form" onSubmit={handleFormSubmit}>
           <input
             value={contactName}
