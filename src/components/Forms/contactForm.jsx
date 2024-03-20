@@ -70,6 +70,18 @@ function Form() {
     }
     
 
+    const handleMouseEvent = (e) => {
+      e.persist();
+      e.target.style.backgroundColor = "orange";
+  
+      setTimeout(() => {
+        e.target.style.backgroundColor = "";
+      }, 1000);
+    };
+
+
+
+
     //Returns display of form based off prop data
     //taken in by the code above
     return (
@@ -79,6 +91,7 @@ function Form() {
           <input
             value={contactName}
             name="contactName"
+            onMouseLeave={handleMouseEvent}
             onChange={handleInputChange}
             type="text"
             placeholder="name"
