@@ -1,10 +1,7 @@
+//Imports avatar image for About page from assets
 import Avatar from '../../public/assets/projectAvatarSamp.png'
 
-//May or may not use this object
-const aboutMeDetails ={
-  pageName:'About'
-}
-
+//Setup for About page
 export default function About() {
     return (
       <div>

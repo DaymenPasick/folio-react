@@ -6,7 +6,7 @@ import pastProjects from '../pastProjects'
 
 
 
-
+//Setup for Portfolio page
 export default function Portfolio() {
     return (
       <div>

@@ -1,4 +1,4 @@
-//Imports img links for Footer
+//Imports img links for Footer from assets
 import gitIcon from '../../public/assets/GitHubIconLink.png'
 import linkedIcon from '../../public/assets/LinkedInIconLink.png'
 import twitterIcon from '../../public/assets/TwitterIconLink.png'

@@ -6,11 +6,11 @@ import React from 'react'
 function ProjectListItems({pastProject}) {
   return (
     <li className="" >
-    {`${pastProject.title}`}
-    <img src={`${pastProject.imgRef}`} alt={`img of ${pastProject.title}`} />
-    <a href={`${pastProject.deployedLink}`} target="_blank">View Live Website</a>
-    <a href={`${pastProject.gitHubLink}`} target="_blank">View On GitHub</a>
-  </li>
+      {`${pastProject.title}`}
+      <img src={`${pastProject.imgRef}`} alt={`img of ${pastProject.title}`} />
+      <a href={`${pastProject.deployedLink}`} target="_blank">View Live Website</a>
+      <a href={`${pastProject.gitHubLink}`} target="_blank">View On GitHub</a>
+    </li>
   )
 }
 

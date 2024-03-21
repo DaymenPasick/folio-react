@@ -1,10 +1,14 @@
+//Imports react sample resume from assets for download link
 import resumeDownload from '../../public/assets/ResumeDownload.txt'
 
+
+//Setup for Resume page
 export default function Resume() {
     return (
       <div>
         <h1>Resume</h1>
         <a href={resumeDownload} target="_blank" download>Download My Resume</a>
+
         <h2>Front-End Proficies</h2>
           <ul>
             <li>React</li>
@@ -15,6 +19,7 @@ export default function Resume() {
             <li>Bootstrap</li>
             <li>Responsive Design</li>
           </ul>
+
         <h2>Back-End Proficies</h2>
           <ul>
             <li>MySQL, Sequelize</li>
