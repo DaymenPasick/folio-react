@@ -1,8 +1,5 @@
 //Importing useState to utilize its hook functionality
 import { useState } from 'react';
-
-//Importing the validateEmail helper function to
-//use within the form
 import { validateEmail } from '../../utils/helpers';
 
 
@@ -17,23 +14,16 @@ function Form() {
     
 
 
-    //Arrow function that will listen for changes in the
-    //useState variables declared above
+    //Will listen for changes in declared useState variables
     const handleInputChange =(e) =>{
 
-        //Will set a listner that will target
-        //the html form (name) attribute that has been
-        //typed in/altered while also targetting
-        //the updated data(value) associated with the 
-        //aforementioned (name) target
+        //Sets target costs for cleaner code
         const { target } = e;
         const inputType = target.name;
         const inputValue = target.value;
 
 
-        //Will update the useState variables
-        //depending on which form inputType(name)
-        //was altered
+        //Uses useState to update form from entered data
         if (inputType === 'contactName') {
             setContactName(inputValue);
           } else if (inputType === 'email') {
