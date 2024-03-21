@@ -1,4 +1,5 @@
 import gitIcon from '../../public/assets/GitHubIconLink.png'
+import linkedIcon from '../../public/assets/LinkedInIconLink.png'
 
 
 export default function Footer(props) {
@@ -6,7 +7,13 @@ export default function Footer(props) {
  return (
     <div>
         <p>My Beauituful Footer </p>
-        <a href="https://github.com/DaymenPasick">
+        <a href="https://github.com/DaymenPasick" target="_blank">
+            <img src={gitIcon} alt="GitHub Icon" />
+        </a>
+        <a href="https://www.linkedin.com/in/daymen-pasick-a956692a2/" target="_blank">
+            <img src={linkedIcon} alt="LinkedIn" />
+        </a>
+        <a href="https://github.com/DaymenPasick" target="_blank">
             <img src={gitIcon} alt="GitHub Icon" />
         </a>
     </div>
