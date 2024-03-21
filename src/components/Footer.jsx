@@ -1,13 +1,12 @@
+//Imports img links for Footer
 import gitIcon from '../../public/assets/GitHubIconLink.png'
 import linkedIcon from '../../public/assets/LinkedInIconLink.png'
 import twitterIcon from '../../public/assets/TwitterIconLink.png'
 
-
+//Structure for Footer
 export default function Footer(props) {
-
  return (
     <div>
-        <p>My Beauituful Footer </p>
         <a href="https://github.com/DaymenPasick" target="_blank">
             <img src={gitIcon} alt="GitHub Icon" />
         </a>
@@ -18,9 +17,5 @@ export default function Footer(props) {
             <img src={twitterIcon} alt="Twitter Icon" />
         </a>
     </div>
-
  );
-
-
-
 }
