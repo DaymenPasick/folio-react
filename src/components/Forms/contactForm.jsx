@@ -69,14 +69,34 @@ function Form() {
           alert(`Thanks for contacting me ${userName}. I'll respond ASAP! `);
     }
     
-
+    //Will trigger error messages when mouse leaves invalid 
+    //form fields
     const handleMouseEvent = (e) => {
-      e.persist();
-      e.target.style.backgroundColor = "orange";
-  
-      setTimeout(() => {
-        e.target.style.backgroundColor = "";
-      }, 1000);
+      // console.log(e.target.value);
+
+      // e.persist();
+      // e.preventDefault();
+      // e.target.style.backgroundColor = "orange";
+      
+      if (e.target.value === ""||
+          e.target.value === e.target.placeholder ||
+          e.target.value === " ") {
+        console.log('Nope');
+        // e.preventDefault();
+        // setErrorMessage('field required');
+
+        //Would like to create a more detailed error message
+        //if time permits
+      }
+
+      
+      // } else {
+      //   setContactName(e.target.value)
+      // }
+      
+      // setTimeout(() => {
+      //   e.target.style.backgroundColor = "";
+      // }, 1000);
     };
 
 
@@ -91,7 +111,7 @@ function Form() {
           <input
             value={contactName}
             name="contactName"
-            onMouseLeave={handleMouseEvent}
+            onBlur={handleMouseEvent}
             onChange={handleInputChange}
             type="text"
             placeholder="name"
