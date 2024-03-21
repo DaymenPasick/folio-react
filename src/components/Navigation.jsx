@@ -1,25 +1,17 @@
-//Will use react-router-doms Link component to conditionally render 
-//different parts of my Portfolio
-
-//These two imports will give access to utilities/methods that 
-//can be used the router defined in main.jsx
+//These two methods will allow us to use router-dom router and link 
 import { Link, useLocation } from 'react-router-dom';
 
 function CreateNavigationTabs() {
-
     //Sets variable for active page to be used in the return() below
     const currentPage = useLocation().pathname;
 
-
-    //In the return below, terinary operators will be used to check 
-    //the current page, and use bootsrap import from main.jsx
-    //to utilize the nav-link class functionality for dynamic tabs
+    //Visual and functional setup for Navigation
     return (
       <ul className="nav nav-tabs">
         <li className="nav-item">
           <Link
             to="/About"
-            //Will set About tab active upon initial page loading in
+            //Will set About tab to the active section upon initial page loading in
             className={currentPage === '/About' || currentPage === '/' ? 'nav-link active' : 'nav-link'}
           >
             About
@@ -57,5 +49,5 @@ function CreateNavigationTabs() {
 
 }
 
-//Will allow for use of inlying function elsewhere in code
+//Will allow for use elsewhere in code
 export default CreateNavigationTabs;
