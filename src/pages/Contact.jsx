@@ -9,6 +9,5 @@ export default function Contact() {
 
           <Form />
       </div>
-      
     );
   }
