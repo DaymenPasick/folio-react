@@ -78,8 +78,7 @@ function Form() {
 
 
 
-    //Returns display of form based off prop data
-    //taken in by the code above
+    //Formatting form and giving it functionality created above
     return (
         <div className="container text-center">
         <h1>Please Fill Out This Form</h1>
