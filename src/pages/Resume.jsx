@@ -1,3 +1,5 @@
+import resumeDownload from '../../public/assets/ResumeDownload.txt'
+
 export default function Resume() {
     return (
       <div>
@@ -14,6 +16,7 @@ export default function Resume() {
           dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
           conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
           rhoncus. Etiam vel condimentum magna, quis tempor nulla.
+          <a href={resumeDownload} target="_blank" download>Download</a>
         </p>
       </div>
     );
