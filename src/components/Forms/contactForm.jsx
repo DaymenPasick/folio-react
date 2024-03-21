@@ -106,6 +106,7 @@ function Form() {
           <input
             value={email}
             name="email"
+            onBlur={handleMouseEvent}
             onChange={handleInputChange}
             type="email"
             placeholder="email"
@@ -113,6 +114,7 @@ function Form() {
           <textarea
             value={contactMessage}
             name="contactMessage"
+            onBlur={handleMouseEvent}
             onChange={handleInputChange}
             type="textarea"
             placeholder="message"
