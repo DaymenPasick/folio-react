@@ -47,6 +47,12 @@ function Form() {
           return;
           }
 
+        if (!contactMessage) {
+            setErrorMessage('Please type a message')
+
+          return;
+          }
+
           //Resets form if validations pass
           setContactName('');
           setEmail('');
