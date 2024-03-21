@@ -4,7 +4,6 @@ import { validateEmail } from '../../utils/helpers';
 
 
 function Form() {
-
     //Setting up useState variables and declaring their functions
     const [contactName, setContactName] = useState('');
     const [email, setEmail] = useState('');
@@ -13,15 +12,12 @@ function Form() {
     const [errorMessage, setErrorMessage] = useState('');
     
 
-
     //Will listen for changes in declared useState variables
     const handleInputChange =(e) =>{
-
         //Sets target costs for cleaner code
         const { target } = e;
         const inputType = target.name;
         const inputValue = target.value;
-
 
         //Uses useState to update form from entered data
         if (inputType === 'contactName') {
@@ -51,7 +47,6 @@ function Form() {
           return;
           }
 
-          
           //Resets form if validations pass
           setContactName('');
           setEmail('');
@@ -63,7 +58,6 @@ function Form() {
     const handleMouseEvent = (e) => {
       e.preventDefault();
 
-      
       if (e.target.value === ""||
           e.target.value === e.target.placeholder ||
           e.target.value === " ") {
@@ -74,8 +68,6 @@ function Form() {
       }
 
     };
-
-
 
 
     //Formatting form and giving it functionality created above
