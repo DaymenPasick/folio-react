@@ -1,12 +1,14 @@
-// will be used on multiple pages
+import gitIcon from '../../public/assets/GitHubIconLink.png'
 
-//sample footer
 
 export default function Footer(props) {
 
  return (
     <div>
         <p>My Beauituful Footer </p>
+        <a href="https://github.com/DaymenPasick">
+            <img src={gitIcon} alt="GitHub Icon" />
+        </a>
     </div>
 
  );
