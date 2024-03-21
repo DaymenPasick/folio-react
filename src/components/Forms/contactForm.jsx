@@ -45,32 +45,31 @@ function Form() {
     }
 
 
-    //Arrow function that will listen for
-    //clicking on "submit" button, and handle submitted data
+    //Will listen for "submit" button, and handle submitted data
     const handleFormSubmit =(e) =>{
         e.preventDefault();
 
-        //Will take in the form-entered username and email
-        //and check if email is valid/username isn't empty
-        if (!validateEmail(email) || !contactName) {
-            setErrorMessage('Email or Name is invalid');
-            //Would like to create a more detailed error message
-            //if time permits
-            
-            return;
+        //Validation for email and contact name
+        if (!validateEmail(email) ) {
+            setErrorMessage('Please type a valid email');
+        
+            return
+          }
+        if (!contactName) {
+            setErrorMessage('Please type a contact name')
+
+          return;
           }
 
-          //If the above checks pass, the useState variables
-          //will be reset to empty strings and 
-          //alert message will diplay
+          
+          //Resets form if validations pass
           setContactName('');
           setEmail('');
           setContactMessage('');
           alert(`Thanks for contacting me ${userName}. I'll respond ASAP! `);
     }
     
-    //Will trigger error messages when mouse leaves invalid 
-    //form fields
+    //Will trigger error messages when form fields left blank
     const handleMouseEvent = (e) => {
       e.preventDefault();
 
