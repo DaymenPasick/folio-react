@@ -72,31 +72,18 @@ function Form() {
     //Will trigger error messages when mouse leaves invalid 
     //form fields
     const handleMouseEvent = (e) => {
-      // console.log(e.target.value);
+      e.preventDefault();
 
-      // e.persist();
-      // e.preventDefault();
-      // e.target.style.backgroundColor = "orange";
       
       if (e.target.value === ""||
           e.target.value === e.target.placeholder ||
           e.target.value === " ") {
-        console.log('Nope');
-        // e.preventDefault();
-        // setErrorMessage('field required');
-
-        //Would like to create a more detailed error message
-        //if time permits
+ 
+        setErrorMessage('field required');
+      } else {
+        setErrorMessage('')
       }
 
-      
-      // } else {
-      //   setContactName(e.target.value)
-      // }
-      
-      // setTimeout(() => {
-      //   e.target.style.backgroundColor = "";
-      // }, 1000);
     };
 
 
