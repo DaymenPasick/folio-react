@@ -1,4 +1,4 @@
-import Avatar from '../../public/assets/projectAvatar.png'
+import Avatar from '../../public/assets/projectAvatarSamp.png'
 
 //May or may not use this object
 const aboutMeDetails ={
