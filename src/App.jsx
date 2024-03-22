@@ -5,19 +5,20 @@ import { Outlet } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
-
+import './styles/styles.css'
 //eventually will make this into a seperate stylesheet
 //for neater code
-const styles = {
-  container: {
-    display: 'flex',
-    flexDirection: 'column',
-    height: '100vh',
-    // width: '100vh',
-    padding: '0',
-    backgroundColor: 'grey'
-  },
-} 
+// const styles = {
+//   container: {
+//     display: 'flex',
+//     flexDirection: 'column',
+//     height: '100vh',
+//     // width: '100vh',
+//     padding: '0',
+//     backgroundColor: 'grey'
+//   },
+
+// } 
 
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
     <div >
       <Header />
       {/* playing with styleing...my true enemy xD */}
-      <main className="mx-3" style = {styles.container}>
+      <main className="mx-3 myContainer" >
         <Outlet />
 
         <Footer />
