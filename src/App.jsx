@@ -6,33 +6,21 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 
 import './styles/styles.css'
-//eventually will make this into a seperate stylesheet
-//for neater code
-// const styles = {
-//   container: {
-//     display: 'flex',
-//     flexDirection: 'column',
-//     height: '100vh',
-//     // width: '100vh',
-//     padding: '0',
-//     backgroundColor: 'grey'
-//   },
-
-// } 
 
 
 function App() {
     //Will invoke Nav and Outlet from imports 
   return (
-    <div >
+    <div className='pageBackground'>
+      <div className='container'>
+      <div className='row justify-content-center'>
       <Header />
-      {/* playing with styleing...my true enemy xD */}
-      <main className="mx-3 myContainer" >
+      </div>
+      <main className='mx-3 myContainer' >
         <Outlet />
-
         <Footer />
       </main>
-      
+      </div>
     </div>
   );
 }

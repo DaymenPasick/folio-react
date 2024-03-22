@@ -1,7 +1,13 @@
+.pageBackground {
+    background: rgb(18, 117, 59);
+    height: 100vh;
+}
+
+
 .myContainer {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-     padding: 0;
-    background: grey;
+    height: 80vh;
+    padding: 0;
+    background: rgb(255, 231, 145);
 }
