@@ -13,12 +13,15 @@ function App() {
   return (
     <div className='pageBackground'>
       <div className='container'>
-      <div className='row justify-content-center'>
-      <Header />
-      </div>
-      <main className='mx-3 myContainer' >
+        {/* <div className='row '> */}
+          <Header />
+        {/* </div> */}
+      <main className=' myContainer' >
         <Outlet />
-        <Footer />
+
+
+        
+      <Footer /> 
       </main>
       </div>
     </div>

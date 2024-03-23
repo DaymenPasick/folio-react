@@ -1,12 +1,29 @@
+:root {
+  --main-background: rgb(31, 99, 83);
+  --button-color: rgb(0, 60, 0);
+  --button-hover: rgb(31, 99, 83);
+  --button-text: white;
+  --border-color:rgb(0, 60, 0);
+  --background-comp: rgb(240, 226, 191);
+  --p-text-size: 25px;
+  --h2-text-size: 70px;
+  --general-font-color: rgb(0, 0, 0);
+  --answer-choice-size: 55px;
+}
+
+.sampleBackground{
+    background: var(--border-color);
+}
+
 .pageBackground {
-    background: rgb(31, 99, 83);
+    background: var(--main-background);
     height: 100vh;
 }
 
 
 .myContainer {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     height: 80vh;
     padding: 0;
     background: rgb(240, 226, 191);
