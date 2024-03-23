@@ -1,5 +1,5 @@
 .pageBackground {
-    background: rgb(18, 117, 59);
+    background: rgb(31, 99, 83);
     height: 100vh;
 }
 
@@ -9,5 +9,5 @@
     flex-direction: column;
     height: 80vh;
     padding: 0;
-    background: rgb(255, 231, 145);
+    background: rgb(240, 226, 191);
 }
