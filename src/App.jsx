@@ -20,8 +20,9 @@ function App() {
         <Outlet />
 
 
-        
+        <div>
       <Footer /> 
+      </div>
       </main>
       </div>
     </div>

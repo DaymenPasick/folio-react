@@ -11,6 +11,28 @@
   --answer-choice-size: 55px;
 }
 
+.extraPadding{
+    padding-top: 20%;
+}
+
+
+.tab1{
+    background: rgb(216, 110, 110);
+}
+.tab2{
+    background: rgb(143, 209, 99);
+}
+.tab3{
+    background: rgb(88, 197, 179);
+}
+.tab4{
+    background: rgb(224, 181, 37);
+}
+
+.sampleColor{
+    background: var(--border-color);
+}
+
 .sampleBackground{
     background: var(--border-color);
 }
@@ -25,6 +47,6 @@
     /* display: flex;
     flex-direction: column; */
     height: 80vh;
-    padding: 0;
+    /* padding: 0; */
     background: rgb(240, 226, 191);
 }
