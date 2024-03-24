@@ -12,7 +12,7 @@ function CreateNavigationTabs() {
           <Link
             to="/About"
             //Will set About tab to the active section upon initial page loading in
-            className={currentPage === '/About' || currentPage === '/' ? 'nav-link activeTab' : 'nav-link'}
+            className={currentPage === '/About' || currentPage === '/' ? 'nav-link activeTab' : 'nav-link defaultTab'}
           >
             About
           </Link>
@@ -20,7 +20,7 @@ function CreateNavigationTabs() {
         <li className="nav-item tabs rounded-top tabBorder">
           <Link
             to="/Portfolio"
-            className={currentPage === '/Portfolio' ? 'nav-link activeTab' : 'nav-link'}
+            className={currentPage === '/Portfolio' ? 'nav-link activeTab nameHeader' : 'nav-link defaultTab'}
           >
             Portfolio
           </Link>
@@ -28,7 +28,7 @@ function CreateNavigationTabs() {
         <li className="nav-item tabs rounded-top tabBorder">
           <Link
             to="/Contact"
-            className={currentPage === '/Contact' ? 'nav-link activeTab' : 'nav-link'}
+            className={currentPage === '/Contact' ? 'nav-link activeTab' : 'nav-link defaultTab'}
           >
             Contact
           </Link>
@@ -36,7 +36,7 @@ function CreateNavigationTabs() {
         <li className="nav-item tabs rounded-top tabBorder">
           <Link
             to="/Resume"
-            className={currentPage === '/Resume' ? 'nav-link activeTab' : 'nav-link'}
+            className={currentPage === '/Resume' ? 'nav-link activeTab' : 'nav-link defaultTab'}
           >
             Resume
           </Link>

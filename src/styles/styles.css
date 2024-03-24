@@ -16,7 +16,28 @@
 }
 
 .activeTab{
-    background: rgb(240, 226, 191)
+    background: rgb(240, 226, 191);
+    font-weight: bold;
+    color: rgb(195, 46, 46);
+
+}
+.defaultTab{
+    color: white;
+    font-weight: bold;
+
+}
+
+/* .nameHeader{
+    color: rgb(217, 61, 61);
+    font-weight: bold;
+} */
+.nameHeader:hover{
+    color: rgb(195, 46, 46);
+    font-weight: bold;
+}
+.spanHeader{
+    color: rgb(235, 187, 28);
+    font-weight: bold;
 }
 
 .navbarBorder{
@@ -64,7 +85,7 @@
 }
 
 .pageBackground {
-    background: var(--main-background);
+    background: var(--button-color);
     height: 100vh;
 }
 

@@ -7,7 +7,7 @@ export default function Header(props) {
        <div className='container'>
          <div className='row pt-3 '>
          <div className="col-md-3">
-         <h1>Daymen</h1>
+         <h1 className='nameHeader'><span className='spanHeader'>Day</span>men</h1>
             </div>
 
             <div className="col-md-9">
