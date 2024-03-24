@@ -13,8 +13,6 @@ function App() {
   return (
     <div className='pageBackground'>
       <div className='container'>
-        {/* <div className='row '> */}
-        {/* </div> */}
           <Header />
       </div>
       <main className='container folderBG rounded-bottom rounded-end rounded-start' >

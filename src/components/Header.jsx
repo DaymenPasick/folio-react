@@ -6,11 +6,11 @@ export default function Header(props) {
     return (
        <div className='container'>
          <div className='row pt-3 '>
-         <div className="col-md-3">
-         <h1 className='nameHeader'><span className='spanHeader'>Day</span>men</h1>
+         <div className=" col-sm-4 d-flex justify-content-start">
+         <h1 className='nameHeader '><span className='spanHeader'>Day</span>men</h1>
             </div>
 
-            <div className="col-md-9">
+         <div className=" col-sm-8 d-flex justify-content-end">
           <Nav />
           </div>
 

@@ -7,8 +7,8 @@ function CreateNavigationTabs() {
 
     //Visual and functional setup for Navigation
     return (
-      <ul className="nav nav-tabs pt-3 navbarBorder">
-        <li className="nav-item tabs rounded-top tabBorder">
+      <ul className="row nav nav-tabs pt-3 navbarBorder ">
+        <li className="col-sm-3 nav-item tabs rounded-top tabBorder d-flex justify-content-center">
           <Link
             to="/About"
             //Will set About tab to the active section upon initial page loading in
@@ -17,7 +17,8 @@ function CreateNavigationTabs() {
             About
           </Link>
         </li>
-        <li className="nav-item tabs rounded-top tabBorder">
+
+        <li className="col-sm-3 nav-item tabs rounded-top tabBorder d-flex justify-content-center">
           <Link
             to="/Portfolio"
             className={currentPage === '/Portfolio' ? 'nav-link activeTab ' : 'nav-link defaultTab'}
@@ -25,7 +26,8 @@ function CreateNavigationTabs() {
             Portfolio
           </Link>
         </li>
-        <li className="nav-item tabs rounded-top tabBorder">
+
+        <li className="col-sm-3 nav-item tabs rounded-top tabBorder d-flex justify-content-center">
           <Link
             to="/Contact"
             className={currentPage === '/Contact' ? 'nav-link activeTab' : 'nav-link defaultTab'}
@@ -33,7 +35,8 @@ function CreateNavigationTabs() {
             Contact
           </Link>
         </li>
-        <li className="nav-item tabs rounded-top tabBorder">
+
+        <li className="col-sm-3 nav-item tabs rounded-top tabBorder d-flex justify-content-center">
           <Link
             to="/Resume"
             className={currentPage === '/Resume' ? 'nav-link activeTab' : 'nav-link defaultTab'}

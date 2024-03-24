@@ -68,14 +68,22 @@
 .extraMargin{
     margin-bottom: 100px;
     padding-bottom: 5%;
+    
+}
+
+.footBorder{
+    border-top: 6px dotted var(--border-color);
+    padding-top: 10px;
+    margin-right: 1px;
+    margin-left: 1px;
 }
 
 
 
 
-/* .sampleColor{
+.sampleColor{
     background: var(--border-color);
-} */
+}
 
 .sampleBackground{
     background: var(--border-color);
