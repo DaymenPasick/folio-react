@@ -8,35 +8,35 @@ function CreateNavigationTabs() {
     //Visual and functional setup for Navigation
     return (
       <ul className="nav nav-tabs pt-2 navbarBorder">
-        <li className="nav-item tab1">
+        <li className="nav-item tabs rounded-top tabBorder">
           <Link
             to="/About"
             //Will set About tab to the active section upon initial page loading in
-            className={currentPage === '/About' || currentPage === '/' ? 'nav-link active' : 'nav-link'}
+            className={currentPage === '/About' || currentPage === '/' ? 'nav-link activeTab' : 'nav-link'}
           >
             About
           </Link>
         </li>
-        <li className="nav-item tab2">
+        <li className="nav-item tabs rounded-top tabBorder">
           <Link
             to="/Portfolio"
-            className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
+            className={currentPage === '/Portfolio' ? 'nav-link activeTab' : 'nav-link'}
           >
             Portfolio
           </Link>
         </li>
-        <li className="nav-item tab3">
+        <li className="nav-item tabs rounded-top tabBorder">
           <Link
             to="/Contact"
-            className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
+            className={currentPage === '/Contact' ? 'nav-link activeTab' : 'nav-link'}
           >
             Contact
           </Link>
         </li>
-        <li className="nav-item tab4">
+        <li className="nav-item tabs rounded-top tabBorder">
           <Link
             to="/Resume"
-            className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
+            className={currentPage === '/Resume' ? 'nav-link activeTab' : 'nav-link'}
           >
             Resume
           </Link>

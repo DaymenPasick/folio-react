@@ -10,17 +10,17 @@ export default function Footer(props) {
      <div className='row extraMargin'>
        <div className='col-sm-4 text-center'> 
         <a href="https://github.com/DaymenPasick" target="_blank">
-            <img src={gitIcon} alt="GitHub Icon" />
+            <img className='img-fluid '  src={gitIcon} alt="GitHub Icon" />
         </a>
        </div> 
        <div className='col-sm-4 text-center'>
         <a href="https://www.linkedin.com/in/daymen-pasick-a956692a2/" target="_blank">
-            <img src={linkedIcon} alt="LinkedIn Icon" />
+            <img className='img-fluid '  src={linkedIcon} alt="LinkedIn Icon" />
         </a>
         </div>
         <div className='col-sm-4 text-center'> 
         <a href="https://twitter.com/DaymensCode" target="_blank">
-            <img src={twitterIcon} alt="Twitter Icon" />
+            <img className='img-fluid '  src={twitterIcon} alt="Twitter Icon" />
         </a>
         </div>
 

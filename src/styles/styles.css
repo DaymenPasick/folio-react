@@ -11,6 +11,14 @@
   --answer-choice-size: 55px;
 }
 
+.tabBorder{
+    border-right: 2px solid var(--main-background);
+}
+
+.activeTab{
+    background: rgb(240, 226, 191)
+}
+
 .navbarBorder{
     border-bottom:0;
     padding-bottom: 0;
@@ -31,17 +39,20 @@
 }
 
 
-.tab1{
-    background: rgb(216, 110, 110);
+.tabs{
+    background: rgb(235, 187, 28);
 }
 .tab2{
-    background: rgb(143, 209, 99);
+    background: rgb(240, 226, 191);
 }
 .tab3{
-    background: rgb(88, 197, 179);
+    background: rgb(240, 226, 191);
 }
 .tab4{
-    background: rgb(224, 181, 37);
+    background: rgb(240, 226, 191);
+}
+.tab5{
+    background: rgb(88, 197, 179)
 }
 
 .sampleColor{
