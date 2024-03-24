@@ -8,7 +8,7 @@ export default function About() {
        <div className='row text-center pt-1'>
           <h1>About Me</h1>
        </div>
-       <div className='row  '>
+       <div className='row'>
          <div className='col-sm-6 '>
            <img className='img-fluid mx-auto d-block ' src={Avatar} alt="profile avatar of a man wearing sunglasses" />
          </div> 

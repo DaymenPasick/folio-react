@@ -20,7 +20,7 @@ function App() {
         <Outlet />
 
 
-        <div>
+        <div className='container'>
       <Footer /> 
       </div>
       </main>
