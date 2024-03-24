@@ -11,6 +11,16 @@
   --answer-choice-size: 55px;
 }
 
+.navbarBorder{
+    border-bottom:0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.borderColor{
+    border-top: 10px solid var(--border-color);
+}
+
 .extraPadding{
     padding-top: 20%;
 }
@@ -44,9 +54,7 @@
 
 
 .myContainer {
-    /* display: flex;
-    flex-direction: column; */
     height: 80vh;
-    /* padding: 0; */
+    padding: 0;
     background: rgb(240, 226, 191);
 }

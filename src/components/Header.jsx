@@ -5,9 +5,9 @@ import Nav from './Navigation';
 export default function Header(props) {
     return (
        <div className='container'>
-         <div className='row pt-5 justify-content-between'>
+         <div className='row pt-3 pe-3'>
 
-            <div className="col-9">
+            <div className="col-9 px-0">
           <Nav />
           </div>
 

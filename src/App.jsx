@@ -16,7 +16,7 @@ function App() {
         {/* <div className='row '> */}
           <Header />
         {/* </div> */}
-      <main className=' myContainer' >
+      <main className=' myContainer rounded-bottom rounded-end' >
         <Outlet />
 
 

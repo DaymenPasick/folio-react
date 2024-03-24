@@ -7,7 +7,7 @@ function CreateNavigationTabs() {
 
     //Visual and functional setup for Navigation
     return (
-      <ul className="nav nav-tabs pt-2">
+      <ul className="nav nav-tabs pt-2 navbarBorder">
         <li className="nav-item tab1">
           <Link
             to="/About"
