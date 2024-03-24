@@ -1,5 +1,5 @@
 :root {
-  --main-background: rgb(31, 99, 83);
+  --main-background: rgb(23, 126, 77);
   --button-color: rgb(0, 60, 0);
   --button-hover: rgb(31, 99, 83);
   --button-text: white;
@@ -18,7 +18,7 @@
 .activeTab{
     background: rgb(240, 226, 191);
     font-weight: bold;
-    color: rgb(195, 46, 46);
+
 
 }
 .defaultTab{
@@ -27,14 +27,11 @@
 
 }
 
-/* .nameHeader{
-    color: rgb(217, 61, 61);
-    font-weight: bold;
-} */
-.nameHeader:hover{
-    color: rgb(195, 46, 46);
+.nameHeader{
+    color: rgb(45, 48, 57);
     font-weight: bold;
 }
+
 .spanHeader{
     color: rgb(235, 187, 28);
     font-weight: bold;
@@ -50,13 +47,13 @@
     border-top: 10px solid var(--border-color);
 }
 
-.extraPadding{
+/* .extraPadding{
     padding-top: 20%;
-}
+} */
 
 .extraMargin{
     margin-bottom: 100px;
-    padding-bottom: 2%;
+    padding-bottom: 5%;
 }
 
 
@@ -85,7 +82,7 @@
 }
 
 .pageBackground {
-    background: var(--button-color);
+    background: var(--main-background);
     height: 100vh;
 }
 

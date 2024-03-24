@@ -7,7 +7,7 @@ function CreateNavigationTabs() {
 
     //Visual and functional setup for Navigation
     return (
-      <ul className="nav nav-tabs pt-2 navbarBorder">
+      <ul className="nav nav-tabs pt-3 navbarBorder">
         <li className="nav-item tabs rounded-top tabBorder">
           <Link
             to="/About"
@@ -20,7 +20,7 @@ function CreateNavigationTabs() {
         <li className="nav-item tabs rounded-top tabBorder">
           <Link
             to="/Portfolio"
-            className={currentPage === '/Portfolio' ? 'nav-link activeTab nameHeader' : 'nav-link defaultTab'}
+            className={currentPage === '/Portfolio' ? 'nav-link activeTab ' : 'nav-link defaultTab'}
           >
             Portfolio
           </Link>
