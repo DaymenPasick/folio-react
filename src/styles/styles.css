@@ -1,30 +1,26 @@
 :root {
-  --main-background: rgb(23, 126, 77);
-  --button-color: rgb(0, 60, 0);
-  --button-hover: rgb(31, 99, 83);
-  --button-text: white;
-  --border-color:rgb(0, 60, 0);
-  --background-comp: rgb(240, 226, 191);
-  --p-text-size: 25px;
-  --h2-text-size: 70px;
-  --general-font-color: rgb(0, 0, 0);
-  --answer-choice-size: 55px;
+    --main-background: rgb(23, 126, 77);
+    --button-color: rgb(0, 60, 0);
+    --button-hover: rgb(31, 99, 83);
+    --button-text: white;
+    --border-color:rgb(0, 60, 0);
+    --background-comp: rgb(240, 226, 191);
+    --p-text-size: 25px;
+    --h2-text-size: 70px;
+    --general-font-color: rgb(0, 0, 0);
+    --answer-choice-size: 55px;
 }
 
-.tabBorder{
-    border-right: 2px solid var(--main-background);
+/* Main Settings */
+.pageBackground {
+    background: var(--main-background);
+    height: 100vh;
 }
 
-.activeTab{
+.folderBG {
+    height: 80vh;
+    padding: 0;
     background: rgb(240, 226, 191);
-    font-weight: bold;
-
-
-}
-.defaultTab{
-    color: white;
-    font-weight: bold;
-
 }
 
 .nameHeader{
@@ -37,58 +33,53 @@
     font-weight: bold;
 }
 
+
+
+
+/* Navigation */
+.tabs{
+    background: rgb(235, 187, 28);
+}
+
+.activeTab{
+    background: rgb(240, 226, 191);
+    font-weight: bold;
+}
+
+.defaultTab{
+    color: white;
+    font-weight: bold;
+}
+
+.tabBorder{
+    border-right: 3px solid var(--main-background);
+}
+
 .navbarBorder{
     border-bottom:0;
     padding-bottom: 0;
     margin-bottom: 0;
 }
 
-.borderColor{
-    border-top: 10px solid var(--border-color);
-}
 
-/* .extraPadding{
-    padding-top: 20%;
-} */
 
+
+/* Footer */
 .extraMargin{
     margin-bottom: 100px;
     padding-bottom: 5%;
 }
 
 
-.tabs{
-    background: rgb(235, 187, 28);
-}
-.tab2{
-    background: rgb(240, 226, 191);
-}
-.tab3{
-    background: rgb(240, 226, 191);
-}
-.tab4{
-    background: rgb(240, 226, 191);
-}
-.tab5{
-    background: rgb(88, 197, 179)
-}
 
-.sampleColor{
+
+/* .sampleColor{
     background: var(--border-color);
-}
+} */
 
 .sampleBackground{
     background: var(--border-color);
 }
 
-.pageBackground {
-    background: var(--main-background);
-    height: 100vh;
-}
 
 
-.myContainer {
-    height: 80vh;
-    padding: 0;
-    background: rgb(240, 226, 191);
-}
