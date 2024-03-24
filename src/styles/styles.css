@@ -73,7 +73,7 @@
 
 .footBorder{
     border-top: 6px dotted var(--border-color);
-    padding-top: 10px;
+    padding-top: 2.5%;
     margin-right: 1px;
     margin-left: 1px;
 }
