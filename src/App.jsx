@@ -18,17 +18,13 @@ function App() {
           <Header />
       </div>
       <main className='container myContainer rounded-bottom rounded-end' >
-        <div className='row'>
-          <div className="col">
-        <Outlet />
-        </div>
-        </div>
 
-        <div className='row '>
-          <div className="col">
+        <Outlet />
+
+
+
       <Footer /> 
-        </div>
-        </div>
+
 
 
       </main>
