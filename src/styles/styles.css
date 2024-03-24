@@ -25,6 +25,11 @@
     padding-top: 20%;
 }
 
+.extraMargin{
+    margin-bottom: 100px;
+    padding-bottom: 2%;
+}
+
 
 .tab1{
     background: rgb(216, 110, 110);
@@ -49,7 +54,7 @@
 
 .pageBackground {
     background: var(--main-background);
-    height: 150vh;
+    height: 100vh;
 }
 
 

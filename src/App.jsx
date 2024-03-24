@@ -14,17 +14,24 @@ function App() {
     <div className='pageBackground'>
       <div className='container'>
         {/* <div className='row '> */}
-          <Header />
         {/* </div> */}
-      <main className=' myContainer rounded-bottom rounded-end' >
+          <Header />
+      </div>
+      <main className='container myContainer rounded-bottom rounded-end' >
+        <div className='row'>
+          <div className="col">
         <Outlet />
+        </div>
+        </div>
 
-
-        <div className='container'>
+        <div className='row '>
+          <div className="col">
       <Footer /> 
-      </div>
+        </div>
+        </div>
+
+
       </main>
-      </div>
     </div>
   );
 }
