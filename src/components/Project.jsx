@@ -5,11 +5,13 @@ import ProjectListItems from "./ProjectListItems"
 export default function Project({pastProjects}) {
     return(
         // <div className="container blocked">
-        <div className="d-flex container">
+        <div className=" container   ">
+        <div className='row text-center d-inline-flex'>   
             {pastProjects.map((pastProject) => (      
              <ProjectListItems pastProject={pastProject}
                           key={pastProject.projectNumber}/> 
            ))}
+               </div>
         </div>
     )
 

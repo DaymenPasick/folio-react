@@ -18,9 +18,14 @@ export default function Portfolio() {
           </div>
        </div>
 
-
+       <div className=" container   ">
+      <div className='row text-center d-inline-flex'>   
+            
         <Project pastProjects={pastProjects}/>
         
+    </div>
       </div>
+      </div>
+
     );
   }

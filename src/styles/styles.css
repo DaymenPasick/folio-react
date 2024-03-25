@@ -90,7 +90,7 @@
 }
 
 .blocked{
-    display:inline-block;
+    display:inline;
     width:100%;
     height:auto;
 }
@@ -99,5 +99,10 @@
     content: "\a";
     white-space: pre;
 }
+.breakingSpan::before{
+    content: "\a";
+    white-space: pre;
+}
+
 
 
