@@ -14,11 +14,11 @@
 /* Main Settings */
 .pageBackground {
     background: var(--main-background);
-    height: 100vh;
+    height: 120vh;
 }
 
 .folderBG {
-    height: 80vh;
+    height: 79vh;
     padding: 0;
     background: rgb(240, 226, 191);
 }
