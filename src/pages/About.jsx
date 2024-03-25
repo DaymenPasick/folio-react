@@ -13,8 +13,8 @@ export default function About() {
 
 
        <div className='row my-5'>
-         <div className='col'>
-           <img className='img-fluid mx-auto d-block ' src={Avatar} alt="profile avatar of a man wearing sunglasses" />
+         <div className='col '>
+           <img className='img-fluid mx-auto d-block circle ' src={Avatar} alt="profile avatar of a man wearing sunglasses" />
          </div> 
        </div>
 

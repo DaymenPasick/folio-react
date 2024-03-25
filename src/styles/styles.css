@@ -1,5 +1,5 @@
 :root {
-    --main-background: rgb(23, 126, 77);
+    --main-background: rgb(56, 122, 90);
     --button-color: rgb(0, 60, 0);
     --button-hover: rgb(31, 99, 83);
     --button-text: white;
@@ -79,6 +79,30 @@
 }
 
 
+/* Portfolio */
+.breakingSpan::after{
+    content: "\a";
+    white-space: pre;
+}
+
+
+.folioImgBorder{
+    border: 5px solid var(--main-background);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px var(--border-color);
+}
+
+.circle
+{
+  width:150px;height:150px;
+  border: solid 5px var(--main-background);
+  background-color: #eed;
+  box-shadow: 15px -10px  rgba(0,0,0,0.6);
+  -moz-box-shadow: 15px -10px  rgba(0,0,0,0.6);
+  -webkit-box-shadow: 1px 0px  rgba(0,0,0,0.6);
+  -o-box-shadow: 10px -10px  rgba(0,0,0,0.6);
+  border-radius:200px;
+}
 
 
 .sampleColor{
@@ -89,20 +113,9 @@
     background: purple;
 }
 
-.blocked{
-    display:inline;
-    width:100%;
-    height:auto;
-}
 
-.breakingSpan::after{
-    content: "\a";
-    white-space: pre;
-}
-.breakingSpan::before{
-    content: "\a";
-    white-space: pre;
-}
+
+
 
 
 

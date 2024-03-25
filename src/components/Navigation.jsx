@@ -8,7 +8,7 @@ function CreateNavigationTabs() {
     //Visual and functional setup for Navigation
     return (
       <ul className="row nav nav-tabs pt-3 navbarBorder ">
-        <li className="col-md-3 nav-item tabs rounded-top tabBorder d-flex justify-content-center">
+        <li className="col-sm-3 nav-item tabs rounded-top tabBorder d-flex justify-content-center">
           <Link
             to="/About"
             //Will set About tab to the active section upon initial page loading in

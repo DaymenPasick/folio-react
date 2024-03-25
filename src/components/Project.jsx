@@ -5,8 +5,8 @@ import ProjectListItems from "./ProjectListItems"
 export default function Project({pastProjects}) {
     return(
         // <div className="container blocked">
-        <div className=" container   ">
-        <div className='row text-center d-inline-flex'>   
+        <div className="container d-flex ">
+        <div className='row text-center d-flex justify-content-center'>   
             {pastProjects.map((pastProject) => (      
              <ProjectListItems pastProject={pastProject}
                           key={pastProject.projectNumber}/> 
