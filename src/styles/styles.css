@@ -95,11 +95,13 @@
 /* Footer */
 .footBorder{
     border-top: 6px dotted var(--border-color);
-    padding-top: 2.5%;
-    margin-right: auto;
+    height: 24vh;
+    padding: 5px; 
+    /* margin-right: auto;
     margin-left: auto;
-    margin-bottom: 22%;
-    padding-bottom: auto;
+    margin-bottom: 22%; */ 
+    /* padding-bottom: auto; */
+
 }
 
 
