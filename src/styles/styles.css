@@ -86,8 +86,18 @@
 }
 
 .sampleBackground{
-    background: var(--border-color);
+    background: purple;
 }
 
+.blocked{
+    display:inline-block;
+    width:100%;
+    height:auto;
+}
+
+.breakingSpan::after{
+    content: "\a";
+    white-space: pre;
+}
 
 

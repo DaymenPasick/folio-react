@@ -8,13 +8,19 @@ import pastProjects from '../pastProjects'
 //Setup for Portfolio page
 export default function Portfolio() {
     return (
-      <div>
-        <h1>Portfolio</h1>
+      <div className='container'>
+       <div className='row text-center pt-3 '>
+        <div className="col">
+          <h1>Portfolio</h1>
         <p>
           Check out some of my past projects!
         </p>
+          </div>
+       </div>
+
 
         <Project pastProjects={pastProjects}/>
+        
       </div>
     );
   }
