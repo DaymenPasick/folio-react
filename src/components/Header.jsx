@@ -6,7 +6,7 @@ export default function Header(props) {
     return (
        <div className='container'>
          <div className='row pt-3 '>
-         <div className=" col-sm-4 d-flex justify-content-start">
+         <div className=" col-sm-4 d-flex justify-content-evenly">
          <h1 className='nameHeader '><span className='spanHeader'>Day</span>men</h1>
             </div>
          

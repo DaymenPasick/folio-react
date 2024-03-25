@@ -7,7 +7,7 @@ import twitterIcon from '../../public/assets/TwitterIconLink.png'
 export default function Footer(props) {
  return (
     <div className='container fixed-bottom'>
-     <div className='row footBorder mb-0 mb-sm-5 pb-sm-5' >
+     <div className='row footBorder mb-5 mb-sm-5 pb-5 pb-sm-5' >
        <div className='col-3 col-sm-4 text-center mb-sm-5 '> 
         <a className='' href="https://github.com/DaymenPasick" target="_blank">
             <img className='img-fluid'  src={gitIcon} alt="GitHub Icon" />
