@@ -94,9 +94,14 @@
 
 /* Footer */
 .footBorder{
-    border-top: 6px dotted var(--border-color);
-    height: 24vh;
-    padding: 5px; 
+    border-top: 6px dashed rgb(235, 187, 28);
+    height: auto;
+    padding-top: 7px; 
+    padding-bottom: 3px; 
+    
+    margin-left: 1px; 
+    margin-right: 1px; 
+    /* padding-bottom: 5px;  */
     /* margin-right: auto;
     margin-left: auto;
     margin-bottom: 22%; */ 

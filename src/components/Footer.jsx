@@ -8,7 +8,7 @@ export default function Footer(props) {
  return (
     <div className='container fixed-bottom'>
      <div className='row footBorder  '>
-       <div className='col-3 col-sm-4 text-center '> 
+       <div className='col-3 col-sm-4 text-center mb-'> 
     {/* <div className='container fixed-bottom'>
      <div className='row footBorder  mb-sm-5 pb-sm-5 mb-lg-5 pb-lg-5'>
        <div className='col-3 col-sm-4 text-center  mb-sm-5 mb-lg-5 '>  */}
