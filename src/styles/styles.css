@@ -34,8 +34,6 @@
 }
 
 
-
-
 /* Navigation */
 .tabs{
     background: rgb(235, 187, 28);
@@ -63,6 +61,36 @@
 
 
 
+/* About Me */
+.circle
+{
+  width:150px;height:150px;
+  border: solid 5px var(--main-background);
+  background-color: rgb(26, 26, 8);
+  box-shadow: 50px -10px  var(--border-color);
+  -moz-box-shadow: 15px -10px  var(--border-color);
+  -webkit-box-shadow: 3px 1px  var(--border-color)  ;
+  -o-box-shadow: 10px -10px  var(--border-color);
+  border-radius:200px;
+}
+
+
+
+/* Portfolio */
+.breakingSpan::after{
+    content: "\a";
+    white-space: pre;
+}
+
+
+.folioImgBorder{
+    border: 5px solid var(--main-background);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px var(--border-color);
+}
+
+
+
 
 /* Footer */
 .extraMargin{
@@ -79,30 +107,8 @@
 }
 
 
-/* Portfolio */
-.breakingSpan::after{
-    content: "\a";
-    white-space: pre;
-}
 
 
-.folioImgBorder{
-    border: 5px solid var(--main-background);
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px var(--border-color);
-}
-
-.circle
-{
-  width:150px;height:150px;
-  border: solid 5px var(--main-background);
-  background-color: #eed;
-  box-shadow: 15px -10px  rgba(0,0,0,0.6);
-  -moz-box-shadow: 15px -10px  rgba(0,0,0,0.6);
-  -webkit-box-shadow: 1px 0px  rgba(0,0,0,0.6);
-  -o-box-shadow: 10px -10px  rgba(0,0,0,0.6);
-  border-radius:200px;
-}
 
 
 .sampleColor{
