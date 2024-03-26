@@ -1,14 +1,9 @@
 :root {
     --main-background: rgb(56, 122, 90);
-    --button-color: rgb(0, 60, 0);
-    --button-hover: rgb(31, 99, 83);
-    --button-text: white;
     --border-color:rgb(0, 60, 0);
     --background-comp: rgb(240, 226, 191);
-    --p-text-size: 25px;
-    --h2-text-size: 70px;
     --general-font-color: rgb(0, 0, 0);
-    --answer-choice-size: 55px;
+    --subway-yellow: rgb(235, 187, 28);
 }
 
 /* Main Settings */
@@ -20,7 +15,7 @@
 .folderBG {
     height: 79vh;
     padding: 0;
-    background: rgb(240, 226, 191);
+    background: var(--background-comp);
     box-shadow: 10px 10px 12px var(--border-color);
 }
 
@@ -38,7 +33,7 @@
     padding-left:10px;
     padding-top:5px;
     padding-bottom:5px;
-    background-color: rgb(240, 226, 191) ;
+    background-color: var(--background-comp) ;
 }
 .imgShadowLinked {
     box-shadow: 7px 5.5px 13px 4px rgb(34, 33, 33);
@@ -50,7 +45,7 @@
     padding-left:5px;
     padding-top:2px;
     padding-bottom:2px;
-    background-color: rgb(235, 187, 28);
+    background-color: var(--subway-yellow);
 }
 
 .nameHeader{
@@ -60,7 +55,7 @@
 }
 
 .spanHeader{
-    color: rgb(235, 187, 28);
+    color: var(--subway-yellow);
     font-weight: bold;
     
 }
@@ -80,11 +75,11 @@
 
 /* Navigation */
 .tabs{
-    background: rgb(235, 187, 28);
+    background: var(--subway-yellow);
 }
 
 .activeTab{
-    background: rgb(240, 226, 191);
+    background: var(--background-comp);
     font-weight: bold;
 }
 
@@ -129,7 +124,7 @@
 
 /* Contact */
 .submitButton{
-    background-color: rgb(235, 187, 28);
+    background-color: var(--subway-yellow);
     border-radius: 5px;
     box-shadow: 2px 3px 10px rgb(141, 135, 120);
 }
@@ -143,7 +138,7 @@
 
 /* Footer */
 .footBorder{
-    border-top: 6px dashed rgb(235, 187, 28);
+    border-top: 6px dashed var(--subway-yellow);
     height: auto;
     padding-top: 7px; 
     padding-bottom: 3px; 
@@ -151,16 +146,6 @@
     margin-right: 1px; 
 }
 
-
-
-
-.sampleColor{
-    background: var(--border-color);
-}
-
-.sampleBackground{
-    background: purple;
-}
 
 
 

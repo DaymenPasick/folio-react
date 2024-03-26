@@ -27,10 +27,9 @@ function Form() {
           } else {
             setContactMessage(inputValue)
           }
-
     }
 
-
+    
     //Will listen for "submit" button, and handle submitted data
     const handleFormSubmit =(e) =>{
         e.preventDefault();
@@ -72,7 +71,6 @@ function Form() {
       } else {
         setErrorMessage('')
       }
-
     };
 
 
