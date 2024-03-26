@@ -30,27 +30,27 @@
 
 .imgShadow {
     box-shadow: 7px 5.5px 13px 7px var(--border-color);
-    border-top-left-radius:50px;
-    border-top-right-radius:50px;
-    border-bottom-left-radius:50px;
-    border-bottom-right-radius:50px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius:0px;
     padding-right:10px;
     padding-left:10px;
     padding-top:5px;
     padding-bottom:5px;
-    background-color:rgb(179, 223, 113) ;
+    background-color: rgb(240, 226, 191) ;
 }
 .imgShadowLinked {
     box-shadow: 7px 5.5px 13px 7px var(--border-color);
-    border-top-left-radius:50px;
-    border-top-right-radius:50px;
-    border-bottom-left-radius:50px;
-    border-bottom-right-radius:50px;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius:0px;
     padding-right:5px;
     padding-left:5px;
     padding-top:2px;
     padding-bottom:2px;
-    background-color: rgb(240, 226, 191);
+    background-color: rgb(235, 187, 28);
 }
 
 .nameHeader{
