@@ -13,14 +13,14 @@ export default function About() {
 
 
        <div className='row my-5'>
-         <div className='col '>
+         <div className='col pt-3 '>
            <img className='img-fluid mx-auto d-block circle ' src={Avatar} alt="profile avatar of a man wearing sunglasses" />
          </div> 
        </div>
 
           <div className='row '>
-         <div className='col text-center my-3'>
-           <p className='generalText'>
+         <div className='col text-center my-3 pt-5'>
+           <p className='generalText mx-5 '>
             Hey hey!
             Budding developer here taking the learning journey
             day by day. 

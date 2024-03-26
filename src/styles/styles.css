@@ -29,7 +29,7 @@
 }
 
 .imgShadow {
-    box-shadow: 7px 5.5px 13px 7px var(--border-color);
+    box-shadow: 7px 5.5px 13px 2px rgb(34, 33, 33);
     border-top-left-radius:15px;
     border-top-right-radius:15px;
     border-bottom-left-radius:0px;
@@ -41,7 +41,7 @@
     background-color: rgb(240, 226, 191) ;
 }
 .imgShadowLinked {
-    box-shadow: 7px 5.5px 13px 7px var(--border-color);
+    box-shadow: 7px 5.5px 13px 4px rgb(34, 33, 33);
     border-top-left-radius:15px;
     border-top-right-radius:15px;
     border-bottom-left-radius:0px;
