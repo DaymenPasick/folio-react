@@ -20,7 +20,6 @@ function ProjectListItems({pastProject}) {
         <a href={`${pastProject.gitHubLink}`} target="_blank">View On GitHub</a>
       </div>
     </div>
-
   )
 }
 
