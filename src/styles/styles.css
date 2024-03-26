@@ -111,10 +111,7 @@
   width:150px;height:150px;
   border: solid 5px var(--main-background);
   background-color: rgb(26, 26, 8);
-  box-shadow: 50px -10px  var(--border-color);
-  -moz-box-shadow: 15px -10px  var(--border-color);
-  -webkit-box-shadow: 3px 1px  var(--border-color)  ;
-  -o-box-shadow: 10px -10px  var(--border-color);
+  box-shadow: 4px 4px 10px rgb(141, 135, 120);
   border-radius:200px;
 }
 
@@ -131,6 +128,18 @@
     border: 5px solid var(--main-background);
     border-radius: 10px;
     box-shadow: 5px 5px 10px var(--border-color);
+    
+}
+
+/* Contact */
+.submitButton{
+    background-color: rgb(235, 187, 28);
+    border-radius: 5px;
+    box-shadow: 2px 3px 10px rgb(141, 135, 120);
+}
+
+.formFieldColor{
+    box-shadow: 3px 4px 1px rgb(224, 214, 189);
 }
 
 

@@ -80,8 +80,9 @@ function Form() {
     return (
         <div className="container text-center">
         <p className='generalText'>Please Fill Out This Form</p>
-        <form className="form" onSubmit={handleFormSubmit}>
-          <input
+        <form className="form row" onSubmit={handleFormSubmit}>
+          <div className="col-12 my-2">
+          <input className='formFieldColor'
             value={contactName}
             name="contactName"
             onBlur={handleMouseEvent}
@@ -89,7 +90,10 @@ function Form() {
             type="text"
             placeholder="name"
           />
-          <input
+          </div>
+
+          <div className="col-12 my-2"> 
+          <input className='formFieldColor'
             value={email}
             name="email"
             onBlur={handleMouseEvent}
@@ -97,7 +101,10 @@ function Form() {
             type="email"
             placeholder="email"
           />
-          <textarea
+          </div>
+
+          <div className="col-12 my-2"> 
+          <textarea className='formFieldColor'
             value={contactMessage}
             name="contactMessage"
             onBlur={handleMouseEvent}
@@ -105,15 +112,25 @@ function Form() {
             type="textarea"
             placeholder="message"
           />
-          <button type="submit">
+          </div>
+
+          <div className="col "> 
+          <button className="submitButton" type="submit">
             Submit
           </button>
+          </div>
         </form>
+
+
+
         {errorMessage && (
           <div>
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
+
+
+
       </div>
     );
 

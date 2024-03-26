@@ -19,7 +19,7 @@ export default function About() {
        </div>
 
           <div className='row '>
-         <div className='col text-center my-3 pt-5'>
+         <div className='col text-center my-3 pt-4'>
            <p className='generalText mx-5 '>
             Hey hey!
             Budding developer here taking the learning journey
