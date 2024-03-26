@@ -7,7 +7,7 @@ function CreateNavigationTabs() {
 
     //Visual and functional setup for Navigation
     return (
-      <ul className="row nav nav-tabs pt-3 navbarBorder ">
+      <ul className="row nav nav-tabs pt-3 navbarBorder">
         <li className="col-3 col-sm-3 nav-item tabs rounded-top tabBorder d-flex justify-content-center tabShadow">
           <Link
             to="/About"
@@ -46,10 +46,6 @@ function CreateNavigationTabs() {
         </li>
       </ul>
     );
-
-
-
-
 }
 
 //Will allow for use elsewhere in code
