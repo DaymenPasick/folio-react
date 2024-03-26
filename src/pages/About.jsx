@@ -11,7 +11,6 @@ export default function About() {
           </div>
        </div>
 
-
        <div className='row my-5'>
          <div className='col pt-3 '>
            <img className='img-fluid mx-auto d-block circle' 
