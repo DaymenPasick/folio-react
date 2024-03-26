@@ -79,7 +79,7 @@ function Form() {
     //Formatting form and giving it functionality created above
     return (
         <div className="container text-center">
-        <h1>Please Fill Out This Form</h1>
+        <p className='generalText'>Please Fill Out This Form</p>
         <form className="form" onSubmit={handleFormSubmit}>
           <input
             value={contactName}

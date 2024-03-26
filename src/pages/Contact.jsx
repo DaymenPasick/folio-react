@@ -5,7 +5,7 @@ import Form from '../components/Forms/contactForm'
 export default function Contact() {
     return (
       <div>
-        <h1>Contact Me</h1>
+        <h1 className='text-center pt-5 pageHeaderText'>Contact Me</h1>
 
           <Form />
       </div>

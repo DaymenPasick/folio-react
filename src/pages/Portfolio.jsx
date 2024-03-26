@@ -9,10 +9,10 @@ import pastProjects from '../pastProjects'
 export default function Portfolio() {
     return (
       <div className='container d-flex flex-column'>
-       <div className='row text-center pt-3 '>
-        <div className="col">
-          <h1>Portfolio</h1>
-        <p>
+       <div className='row text-center pt-5 '>
+        <div className="col ">
+          <h1 className='pageHeaderText'>Portfolio</h1>
+        <p className='generalText'>
           Check out some of my past projects!
         </p>
           </div>

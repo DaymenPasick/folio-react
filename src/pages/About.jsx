@@ -5,9 +5,9 @@ import Avatar from '../../public/assets/projectAvatarSamp.png'
 export default function About() {
     return (
       <div className='container '>
-       <div className='row text-center pt-3 '>
-        <div className="col">
-          <h1>About Me</h1>
+       <div className='row text-center pt-5 '>
+        <div className="col  ">
+          <h1 className='pageHeaderText'>About Me</h1>
           </div>
        </div>
 
@@ -20,7 +20,7 @@ export default function About() {
 
           <div className='row '>
          <div className='col text-center my-3'>
-           <p className=''>
+           <p className='generalText'>
             Hey hey!
             Budding developer here taking the learning journey
             day by day. 

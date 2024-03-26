@@ -7,7 +7,7 @@ function ProjectListItems({pastProject}) {
   return (
 
         <div className='col-6 col-sm-4'>
-          <div className='pt-sm-3 p-0 m-0'>   
+          <div className='pt-sm-3 p-0 m-0 generalText'>   
             {`${pastProject.title}`}
           </div> 
             <img className='img-fluid mx-auto d-block mt-2 mb-2 folioImgBorder' src={`${pastProject.imgRef}`} alt={`img of ${pastProject.title}`} />

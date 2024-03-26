@@ -66,6 +66,18 @@
 }
 
 
+.generalText{
+    color:var(--general-font-color);
+    font-weight: bold;
+}
+
+.pageHeaderText{
+    color:var(--general-font-color);
+    font-weight: bolder;
+}
+
+
+
 /* Navigation */
 .tabs{
     background: rgb(235, 187, 28);
