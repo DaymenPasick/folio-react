@@ -78,8 +78,9 @@ function Form() {
 
     //Formatting form and giving it functionality created above
     return (
-        <div className="container text-center">
+      <div className="container text-center">
         <p className='generalText'>Please Fill Out This Form</p>
+
         <form className="form row" onSubmit={handleFormSubmit}>
           <div className="col-12 my-2">
           <input className='formFieldColor'
@@ -121,19 +122,13 @@ function Form() {
           </div>
         </form>
 
-
-
         {errorMessage && (
           <div>
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-
-
-
-      </div>
+    </div>
     );
-
 };
 
 //Will export the Form function for use elsewhere in code
