@@ -10,10 +10,14 @@ function ProjectListItems({pastProject}) {
           <div className='pt-sm-3 p-0 m-0 generalText'>   
             {`${pastProject.title}`}
           </div> 
-            <img className='img-fluid mx-auto d-block mt-2 mb-2 folioImgBorder' src={`${pastProject.imgRef}`} alt={`img of ${pastProject.title}`} />
-            <a href={`${pastProject.deployedLink}`} target="_blank">View Live Website</a>
-            <span className='breakingSpan'></span>
+
+          <a href={`${pastProject.deployedLink}`} title='View Live Website' target="_blank">
+            <img className='img-fluid mx-auto d-block mt-2 mb-3 folioImgBorder' 
+            src={`${pastProject.imgRef}`} alt={`img of ${pastProject.title}`} />
+          </a>
+            <div className='pb-sm-2 pb-md-5 '>
             <a href={`${pastProject.gitHubLink}`} target="_blank">View On GitHub</a>
+            </div>
         </div>
 
   )

@@ -13,7 +13,7 @@ export default function Portfolio() {
         <div className="col ">
           <h1 className='pageHeaderText'>Portfolio</h1>
         <p className='generalText'>
-          Check out some of my past projects!
+          Click on an image to checkout one of my past projects!
         </p>
           </div>
        </div>
