@@ -5,29 +5,22 @@ import { Outlet } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
+//For use of style sheet
 import './styles/styles.css'
 
 
 function App() {
-    //Will invoke Nav and Outlet from imports 
+    //Outlet lets utilization of react router in app.js to render components to page
   return (
     <div className='pageBackground'>
       <div className='container'>
           <Header />
       </div>
-      <main className='container folderBG rounded-bottom rounded-end rounded-start' >
-
-
-          
+      <main className='container rounded-bottom rounded-end rounded-start folderBG'>
+        
         <Outlet />
 
-
-
-      <Footer /> 
-
-
-
-
+        <Footer /> 
       </main>
     </div>
   );
