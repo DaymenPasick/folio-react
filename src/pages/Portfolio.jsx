@@ -1,5 +1,5 @@
 //Will utilize Project from Project component
-import Project from '../components/Project';
+import Projects from '../components/Projects';
 
 //Grabs objects from pastProjects array
 import pastProjects from '../pastProjects'
@@ -18,7 +18,7 @@ export default function Portfolio() {
         </div>
        </div>
   
-        <Project pastProjects={pastProjects}/>
+        <Projects items={pastProjects}/>
       </div>
 
     );
