@@ -4,8 +4,8 @@ import Avatar from '../../public/assets/portpicSamp.png'
 //Setup for About page
 export default function About() {
     return (
-      <div className='container  pt-sm-5 mt-sm-5 pt-1 mt-1'>
-       <div className='row pt-5 text-center mt-5'>
+      <div className='container pt-sm-5 mt-sm-5 pt-0 mt-1'>
+       <div className='row pt-5 text-center mt-sm-5'>
         <div className='col'>
           <h1 className='pageHeaderText'>About Me</h1>
           </div>
@@ -21,7 +21,7 @@ export default function About() {
        </div>
 
        <div className='row'>
-         <div className='col my-3 pt-4 text-center'>
+         <div className='col my-3 pt-sm-4 pb-5 pb-sm-0 text-center '>
            <p className='mx-5 generalText'>
             Hey hey!
             Budding developer here taking the learning journey
