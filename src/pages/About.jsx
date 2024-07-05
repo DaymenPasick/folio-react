@@ -4,7 +4,7 @@ import Avatar from '../../public/assets/portpicSamp.png'
 //Setup for About page
 export default function About() {
     return (
-      <div className='container pt-5 mt-5'>
+      <div className='container  pt-sm-5 mt-sm-5 pt-1 mt-1'>
        <div className='row pt-5 text-center mt-5'>
         <div className='col'>
           <h1 className='pageHeaderText'>About Me</h1>
