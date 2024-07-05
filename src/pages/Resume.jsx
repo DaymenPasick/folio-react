@@ -12,7 +12,7 @@ export default function Resume() {
           <a className='text-center' href={resumeDownload} target="_blank" download>Download My Resume</a>
         </div>
 
-        <h2 className='pt-3 text-center'>Front-End Proficies</h2>
+        <h2 className='pt-3 text-center'>Front-End Proficincies</h2>
           <ul className='text-center generalText'>
             <div>React</div>
             <div>Javascript</div>
@@ -23,7 +23,7 @@ export default function Resume() {
             <div>Responsive Design</div>
           </ul>
 
-        <h2 className='text-center'>Back-End Proficies</h2>
+        <h2 className='text-center'>Back-End Proficincies</h2>
           <ul className='text-center generalText'>
             <div>MySQL, Sequelize</div>
             <div>MongoDB, Mongoose</div>

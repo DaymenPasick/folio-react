@@ -1,11 +1,11 @@
 //Imports avatar image for About page from assets
-import Avatar from '../../public/assets/projectAvatarSamp.png'
+import Avatar from '../../public/assets/portpicSamp.png'
 
 //Setup for About page
 export default function About() {
     return (
-      <div className='container'>
-       <div className='row pt-5 text-center'>
+      <div className='container pt-5 mt-5'>
+       <div className='row pt-5 text-center mt-5'>
         <div className='col'>
           <h1 className='pageHeaderText'>About Me</h1>
           </div>

@@ -16,12 +16,14 @@ function App() {
       <div className='container'>
           <Header />
       </div>
-      <main className='container rounded-bottom rounded-end rounded-start folderBG'>
+      <main className='container rounded-bottom rounded-end rounded-start folderBG pt-5'>
         
         <Outlet />
 
-        <Footer /> 
       </main>
+      <div className='container mt-5 pt-3'>
+        <Footer />
+      </div> 
     </div>
   );
 }

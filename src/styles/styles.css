@@ -9,11 +9,11 @@
 /* Main Settings */
 .pageBackground {
     background: var(--main-background);
-    height: 120vh;
+    min-height: 100vh;
 }
 
 .folderBG {
-    height: 79vh;
+    min-height: 75vh;
     padding: 0;
     background: var(--background-comp);
     box-shadow: 10px 10px 12px var(--border-color);
@@ -48,6 +48,8 @@
     background-color: var(--subway-yellow);
 }
 
+
+
 .nameHeader{
     color: white;
     font-weight: bold;
@@ -80,6 +82,7 @@
 
 .activeTab{
     background: var(--background-comp);
+    margin:0;
     font-weight: bold;
 }
 
@@ -90,6 +93,7 @@
 
 .tabBorder{
     border-right: 3px solid var(--main-background);
+    padding: 0;
 }
 
 .navbarBorder{
@@ -139,11 +143,6 @@
 /* Footer */
 .footBorder{
     border-top: 6px dashed var(--subway-yellow);
-    height: auto;
-    padding-top: 7px; 
-    padding-bottom: 3px; 
-    margin-left: 1px; 
-    margin-right: 1px; 
 }
 
 
