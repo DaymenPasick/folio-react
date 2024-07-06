@@ -8,7 +8,7 @@ export default function Footer(props) {
  return (
     <div className='container footBorder pt-4'>
       <div className='row justify-content-center '>
-        <div className='col-3 text-center'> 
+        <div className='col-3 text-center px-1'> 
             <a href="https://github.com/DaymenPasick" target="_blank">
                 <img className='img-fluid imgShadow'  src={gitIcon} alt="GitHub Icon" />
             </a>
