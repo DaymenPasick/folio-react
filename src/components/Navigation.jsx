@@ -7,7 +7,7 @@ function CreateNavigationTabs() {
 
     //Visual and functional setup for Navigation
     return (
-      <ul className="row nav nav-tabs pt-3 navbarBorder">
+      <ul className="row nav nav-tabs pt-md-3 pt-2 px-5 px-sm-0 navbarBorder">
         <li className="col-3 nav-item tabs rounded-top tabBorder text-center tabShadow">
           <Link
             to="/About"

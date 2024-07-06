@@ -6,7 +6,7 @@ import resumeDownload from '../../public/assets/ResumeDownload.txt'
 export default function Resume() {
     return (
       <div>
-        <h1 className='pt-5 text-center pageHeaderText'>Resume</h1>
+        <h1 className='pt-3 text-center pageHeaderText'>Resume</h1>
 
         <div className='pt-3 text-center generalText'>
           <a className='text-center' href={resumeDownload} target="_blank" download>Download My Resume</a>

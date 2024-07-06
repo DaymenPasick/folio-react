@@ -5,7 +5,7 @@ import Nav from './Navigation';
 export default function Header(props) {
     return (
        <div className='container'>
-         <div className='row pt-3'>
+         <div className='row pt-1 pt-sm-2'>
             <div className='col-sm-4 d-flex justify-content-evenly'>
                <h1 className='nameHeader letterShadow'><span className='spanHeader'>Day</span>men</h1>
             </div>
